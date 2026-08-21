@@ -69,19 +69,19 @@ flowchart LR
 
 项目把某个发生顺序位置上的完整生命状态记为：
 
-\[
+$$
 \mathcal L=(W,B,C,U,A,Q,P,M,Y,R)
-\]
+$$
 
 下一项真实外部或内部发生记为 \(\varepsilon\)，全部变化统一受以下关系约束：
 
-\[
+$$
 \boxed{
 \mathcal L^{+}=\Phi_D(\mathcal L,\varepsilon)
 \qquad
 \mathbf R_{\mathrm{资源}}(\mathcal L^{+})\leq\mathbf B_{\mathrm{物理}}
 }
-\]
+$$
 
 上标“＋”只表示发生顺序中的下一个完整状态，不是下一秒、下一帧、训练轮次或全脑扫描次数。公式的完整展开、符号含义和微观路径变化关系见[冻结理论](docs/01_冻结理论.md)。
 
