@@ -1,0 +1,26 @@
+# 本地运行与缓存
+__pycache__/
+*.pyc
+.venv*/
+.host_b_*/
+
+# 个体生命状态与大型数组
+life_data/
+ArtificialBrainData/
+*.bin
+*.f32
+*.u8
+*.u32
+
+# 安装包、构建产物与本地配置
+dist/
+build/
+*.zip
+host_a.toml
+host_b.toml
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
