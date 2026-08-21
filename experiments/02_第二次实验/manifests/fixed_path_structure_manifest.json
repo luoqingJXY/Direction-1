@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "kind": "已确认固定路径来源—到达结构",
+  "neuron_count": 102400000,
+  "endpoint_count": 39585540,
+  "endpoint_file": "fixed_path_endpoints_by_source.bin",
+  "endpoint_dtype": [
+    [
+      "source_neuron",
+      "<u4"
+    ],
+    [
+      "target_neuron",
+      "<u4"
+    ]
+  ],
+  "source_sorted": true,
+  "source_partition_stops": [
+    20480000,
+    40960000,
+    61440000,
+    81920000,
+    102400000
+  ],
+  "contains_path_strength": false,
+  "contains_current_activity": false
+}

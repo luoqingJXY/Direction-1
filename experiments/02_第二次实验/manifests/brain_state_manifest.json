@@ -1,0 +1,179 @@
+{
+  "format": 6,
+  "theory_sha256": "3fe0f09189fe1f9a3275de718b51f50598037c108fece296cf1b0289abeda468",
+  "neuron_count": 102400000,
+  "local_direction_count": 26,
+  "local_path_slot_count": 2662400000,
+  "fixed_path_count": 33106609,
+  "emotion_control_path_count": 70,
+  "output_control_path_count": 523890,
+  "neuron_modulation_response_count": 0,
+  "path_modulation_response_count": 2289069086,
+  "completed_occurrence_count": 5,
+  "first_birth_state": {
+    "organ_input_activity": 0.0,
+    "neuron_activity": 0.0,
+    "plastic_path_strength": 0.0,
+    "every_path_current_activity": 0.0,
+    "emotion_material_activity": 0.0,
+    "brain_output_activity": 0.0,
+    "fixed_path_strength_source": "artificial_dna"
+  },
+  "base_byte_count": 44750895840,
+  "total_byte_count": 72757813976,
+  "neuron_arrays": [
+    {
+      "name": "organ_input_activity",
+      "file_name": "organ_input_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 409600000
+    },
+    {
+      "name": "neuron_activity",
+      "file_name": "neuron_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 409600000
+    },
+    {
+      "name": "neuron_response_gain",
+      "file_name": "neuron_response_gain.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 409600000
+    },
+    {
+      "name": "neuron_threshold",
+      "file_name": "neuron_threshold.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 409600000
+    },
+    {
+      "name": "neuron_nature",
+      "file_name": "neuron_nature.u8",
+      "dtype": "u1",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 102400000
+    },
+    {
+      "name": "local_path_state",
+      "file_name": "local_path_state.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000,
+        26
+      ],
+      "byte_count": 10649600000
+    },
+    {
+      "name": "local_path_activity",
+      "file_name": "local_path_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000,
+        26
+      ],
+      "byte_count": 10649600000
+    },
+    {
+      "name": "local_path_change_rate",
+      "file_name": "local_path_change_rate.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000,
+        26
+      ],
+      "byte_count": 10649600000
+    },
+    {
+      "name": "local_path_formation_threshold",
+      "file_name": "local_path_formation_threshold.f32",
+      "dtype": "<f4",
+      "shape": [
+        102400000,
+        26
+      ],
+      "byte_count": 10649600000
+    },
+    {
+      "name": "local_path_formation_mask",
+      "file_name": "local_path_formation_mask.u32",
+      "dtype": "<u4",
+      "shape": [
+        102400000
+      ],
+      "byte_count": 409600000
+    }
+  ],
+  "known_output_arrays": [
+    {
+      "name": "predicted_visual_activity",
+      "file_name": "predicted_visual_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        262144
+      ],
+      "byte_count": 1048576
+    },
+    {
+      "name": "predicted_auditory_activity",
+      "file_name": "predicted_auditory_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        261630
+      ],
+      "byte_count": 1046520
+    },
+    {
+      "name": "mouse_activity",
+      "file_name": "mouse_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "byte_count": 16
+    },
+    {
+      "name": "keyboard_activity",
+      "file_name": "keyboard_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        108
+      ],
+      "byte_count": 432
+    },
+    {
+      "name": "view_center_activity",
+      "file_name": "view_center_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "byte_count": 16
+    }
+  ],
+  "global_state_arrays": [
+    {
+      "name": "emotion_material_activity",
+      "file_name": "emotion_material_activity.f32",
+      "dtype": "<f4",
+      "shape": [
+        70
+      ],
+      "byte_count": 280
+    }
+  ],
+  "sleep_path_weakening": 0.03846153989434242
+}

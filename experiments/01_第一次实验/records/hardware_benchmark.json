@@ -1,0 +1,30 @@
+{
+  "neurons": 272,
+  "paths": 864,
+  "rounds": 5000,
+  "python_object_seconds": 1.7287837000039872,
+  "numpy_packed_seconds": 0.09981349998270161,
+  "numpy_speedup": 17.32013906238733,
+  "packed_bytes": 56448,
+  "packed_bytes_per_neuron_and_path": 49.690140845070424,
+  "gpu_available": false,
+  "numpy_scale_cases": [
+    {
+      "neurons": 2500,
+      "paths": 30000,
+      "rounds": 500,
+      "seconds": 0.05957969999872148,
+      "million_path_transmissions_per_second": 251.76360405174722,
+      "estimated_four_round_loops_per_second": 2098.0300337645604
+    },
+    {
+      "neurons": 50000,
+      "paths": 1000000,
+      "rounds": 30,
+      "seconds": 0.2883101000043098,
+      "million_path_transmissions_per_second": 104.05462729037778,
+      "estimated_four_round_loops_per_second": 26.013656822594445
+    }
+  ],
+  "gpu_unavailable_reason": "PyTorch ROCm is not installed"
+}

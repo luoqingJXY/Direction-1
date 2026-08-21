@@ -1,0 +1,21 @@
+{
+  "python": "3.12.13",
+  "torch": "2.9.1+rocm7.2.1",
+  "rocm": "7.2.53211-158bd99533",
+  "numpy": "2.3.5",
+  "gpu_available": true,
+  "device_count": 1,
+  "gpu_name": "AMD Radeon RX 7900 XTX",
+  "vram_total_bytes": 25753026560,
+  "vram_free_bytes_before_test": 25597083648,
+  "index_add_result": [
+    4.0,
+    2.0
+  ],
+  "index_add_passed": true,
+  "upload_256mib_seconds": 0.02272469998570159,
+  "upload_gib_per_second": 11.001245347894596,
+  "download_256mib_seconds": 0.04782209999393672,
+  "download_gib_per_second": 5.2277085287282885,
+  "round_trip_equal": true
+}

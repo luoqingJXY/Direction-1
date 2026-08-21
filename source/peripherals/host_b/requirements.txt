@@ -1,0 +1,4 @@
+numpy>=2,<3
+mss>=10,<11
+PyAudioWPatch>=0.2.12,<0.3
+

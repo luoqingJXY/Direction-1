@@ -1,0 +1,147 @@
+{
+  "neurons": 272,
+  "paths": 864,
+  "rounds": 5000,
+  "python_object_seconds": 1.6943285000161268,
+  "numpy_packed_seconds": 0.10124170000199229,
+  "numpy_speedup": 16.735480537987655,
+  "packed_bytes": 56448,
+  "packed_bytes_per_neuron_and_path": 49.690140845070424,
+  "gpu_available": true,
+  "numpy_scale_cases": [
+    {
+      "neurons": 2500,
+      "paths": 30000,
+      "rounds": 500,
+      "seconds": 0.06058439999469556,
+      "million_path_transmissions_per_second": 247.58848814733363,
+      "estimated_four_round_loops_per_second": 2063.23740122778
+    },
+    {
+      "neurons": 50000,
+      "paths": 1000000,
+      "rounds": 30,
+      "seconds": 0.2815742999955546,
+      "million_path_transmissions_per_second": 106.54381454725673,
+      "estimated_four_round_loops_per_second": 26.635953636814182
+    }
+  ],
+  "gpu_name": "AMD Radeon RX 7900 XTX",
+  "gpu_seconds": 2.5085133999818936,
+  "gpu_speedup_vs_objects": 0.6754313132345063,
+  "gpu_scale_cases": [
+    {
+      "neurons": 2500,
+      "paths": 30000,
+      "rounds": 5000,
+      "seconds": 2.4797674999863375,
+      "million_path_transmissions_per_second": 60.4895418626248,
+      "estimated_four_round_loops_per_second": 504.0795155218733,
+      "peak_allocated_mb": 1.0859375,
+      "peak_reserved_mb": 2.0
+    },
+    {
+      "neurons": 50000,
+      "paths": 1000000,
+      "rounds": 300,
+      "seconds": 0.16680469998391345,
+      "million_path_transmissions_per_second": 1798.5104737991905,
+      "estimated_four_round_loops_per_second": 449.62761844979764,
+      "peak_allocated_mb": 35.857421875,
+      "peak_reserved_mb": 44.0
+    },
+    {
+      "neurons": 200000,
+      "paths": 10000000,
+      "rounds": 50,
+      "seconds": 0.06974960002116859,
+      "million_path_transmissions_per_second": 7168.499888863205,
+      "estimated_four_round_loops_per_second": 179.21249722158012,
+      "peak_allocated_mb": 345.63720703125,
+      "peak_reserved_mb": 368.0
+    }
+  ],
+  "cpu_gpu_crossover_cases": [
+    {
+      "numpy": {
+        "neurons": 5000,
+        "paths": 100000,
+        "rounds": 100,
+        "seconds": 0.03524890000699088,
+        "million_path_transmissions_per_second": 283.6967961558151,
+        "estimated_four_round_loops_per_second": 709.2419903895377
+      },
+      "gpu": {
+        "neurons": 5000,
+        "paths": 100000,
+        "rounds": 1000,
+        "seconds": 0.49701780002214946,
+        "million_path_transmissions_per_second": 201.2000374947206,
+        "estimated_four_round_loops_per_second": 503.00009373680143,
+        "peak_allocated_mb": 3.51904296875,
+        "peak_reserved_mb": 4.0
+      }
+    },
+    {
+      "numpy": {
+        "neurons": 7500,
+        "paths": 150000,
+        "rounds": 100,
+        "seconds": 0.09861330001149327,
+        "million_path_transmissions_per_second": 152.10929964063436,
+        "estimated_four_round_loops_per_second": 253.51549940105727
+      },
+      "gpu": {
+        "neurons": 7500,
+        "paths": 150000,
+        "rounds": 1000,
+        "seconds": 0.5033369000011589,
+        "million_path_transmissions_per_second": 298.0111332979057,
+        "estimated_four_round_loops_per_second": 496.68522216317615,
+        "peak_allocated_mb": 5.26171875,
+        "peak_reserved_mb": 24.0
+      }
+    },
+    {
+      "numpy": {
+        "neurons": 10000,
+        "paths": 200000,
+        "rounds": 100,
+        "seconds": 0.12916370001039468,
+        "million_path_transmissions_per_second": 154.84226604216562,
+        "estimated_four_round_loops_per_second": 193.552832552707
+      },
+      "gpu": {
+        "neurons": 10000,
+        "paths": 200000,
+        "rounds": 1000,
+        "seconds": 0.5167416000040248,
+        "million_path_transmissions_per_second": 387.0406408124336,
+        "estimated_four_round_loops_per_second": 483.800801015542,
+        "peak_allocated_mb": 7.00830078125,
+        "peak_reserved_mb": 26.0
+      }
+    },
+    {
+      "numpy": {
+        "neurons": 15000,
+        "paths": 300000,
+        "rounds": 100,
+        "seconds": 0.2791966999939177,
+        "million_path_transmissions_per_second": 107.45112675276445,
+        "estimated_four_round_loops_per_second": 89.5426056273037
+      },
+      "gpu": {
+        "neurons": 15000,
+        "paths": 300000,
+        "rounds": 1000,
+        "seconds": 0.5141312000050675,
+        "million_path_transmissions_per_second": 583.5086452583369,
+        "estimated_four_round_loops_per_second": 486.2572043819474,
+        "peak_allocated_mb": 10.49853515625,
+        "peak_reserved_mb": 22.0
+      }
+    }
+  ],
+  "cpu_gpu_one_round_max_abs_difference": 2.9802322387695312e-08
+}

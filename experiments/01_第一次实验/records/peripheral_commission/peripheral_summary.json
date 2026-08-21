@@ -1,0 +1,51 @@
+{
+  "ticks": 150,
+  "tick_continuity": true,
+  "period_ms": 20.0,
+  "processing_p50_ms": 6.5497,
+  "processing_p95_ms": 6.957,
+  "processing_max_ms": 8.2776,
+  "cycle_interval_p50_ms": 20.0253,
+  "cycle_interval_p95_ms": 20.2651,
+  "cycle_jitter_p95_ms": 0.3890999999999991,
+  "deadline_misses": 0,
+  "visual_change_ticks": 149,
+  "audio_change_ticks": 149,
+  "wire_bytes_mean": 1024.0333333333333,
+  "visual_field": [
+    32,
+    18
+  ],
+  "audio_bands": 24,
+  "motor_channels": 10,
+  "vocal_channels": 33,
+  "safety": {
+    "blocked_cases": {
+      "unarmed": true,
+      "emergency": true,
+      "wrong_process": true,
+      "not_foreground": true,
+      "heartbeat_timeout": true
+    },
+    "all_forbidden_cases_blocked": true,
+    "bounded_allowed_mouse": true,
+    "release_count": 5
+  },
+  "transport": {
+    "authenticated": true,
+    "replay_blocked": true,
+    "tamper_blocked": true
+  },
+  "acceptance": {
+    "tick_continuity": true,
+    "visual_activity_changes": true,
+    "audio_activity_changes": true,
+    "one_vocal_frame_per_tick": true,
+    "processing_p95_within_period": true,
+    "cycle_jitter_p95_within_2ms": true,
+    "safety_fail_closed": true,
+    "authenticated_transport": true
+  },
+  "all_acceptance_passed": true,
+  "scope": "non-brain engineering commissioning; not training and not a life experiment"
+}

@@ -1,0 +1,69 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "mss": "10.2.0",
+    "PyAudioWPatch": "0.2.12.8"
+  },
+  "minecraft_window": null,
+  "output_devices": [
+    {
+      "name": "1 - P275MV (AMD High Definition Audio Device)",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "2 - N2723U (AMD High Definition Audio Device)",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "数字输出 (High Definition Audio Device)",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "扬声器 (Sound Blaster G3)",
+      "channels": 2,
+      "sample_rate": 96000
+    },
+    {
+      "name": "头戴式耳机 (Sound Blaster G3)",
+      "channels": 2,
+      "sample_rate": 48000
+    }
+  ],
+  "loopback_devices": [
+    {
+      "name": "1 - P275MV (AMD High Definition Audio Device) [Loopback]",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "2 - N2723U (AMD High Definition Audio Device) [Loopback]",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "数字输出 (High Definition Audio Device) [Loopback]",
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    {
+      "name": "扬声器 (Sound Blaster G3) [Loopback]",
+      "channels": 2,
+      "sample_rate": 96000
+    },
+    {
+      "name": "头戴式耳机 (Sound Blaster G3) [Loopback]",
+      "channels": 2,
+      "sample_rate": 48000
+    }
+  ],
+  "ready_for_real_capture": false,
+  "operator_choices_still_required": [
+    "route Minecraft alone to one listed output/loopback device",
+    "copy that exact loopback name and the vocal output name into real_experiment.toml",
+    "provide two-host TLS certificates and transport secret",
+    "leave motor.armed=false until the dry run has passed"
+  ]
+}
